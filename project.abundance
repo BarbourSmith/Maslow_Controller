@@ -105,8 +105,7 @@
             },
             {
               "name": "height",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 5
             }
           ]
         },
@@ -193,8 +192,7 @@
           "ioValues": [
             {
               "name": "Number",
-              "ioValue": 4,
-              "currentEquation": "4"
+              "ioValue": 4
             },
             {
               "name": "Geometry",
@@ -210,8 +208,7 @@
             },
             {
               "name": "distZ",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -617,13 +614,11 @@
         },
         {
           "name": "Angle Z",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 90
         },
         {
           "name": "Angle Y",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ],
       "topLevel": false,
@@ -1707,20 +1702,20 @@
       "name": "Back Shell",
       "ioValues": [
         {
-          "name": "BatterySpace",
-          "ioValue": 5.8
-        },
-        {
-          "name": "Wall",
-          "ioValue": 1.6
-        },
-        {
           "name": "Body",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "BackChamfer",
           "ioValue": 3
+        },
+        {
+          "name": "BatterySpace",
+          "ioValue": 5.8
+        },
+        {
+          "name": "Wall",
+          "ioValue": 1.6
         }
       ],
       "topLevel": false,
@@ -1728,7 +1723,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.3,
+          "y": 0.2,
           "uniqueID": "id-2182",
           "name": "Body",
           "type": "geometry",
@@ -1737,7 +1732,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.4,
+          "y": 0.2,
           "uniqueID": "id-2185",
           "name": "BackChamfer",
           "type": "number",
@@ -2235,8 +2230,7 @@
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -2709,8 +2703,7 @@
                   "ioValues": [
                     {
                       "name": "Number",
-                      "ioValue": 4,
-                      "currentEquation": "4"
+                      "ioValue": 4
                     },
                     {
                       "name": "Geometry",
@@ -2726,8 +2719,7 @@
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -3066,13 +3058,11 @@
                     },
                     {
                       "name": "distY",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -3528,7 +3518,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.2,
+          "y": 0.3,
           "uniqueID": "id-411",
           "name": "BatterySpace",
           "type": "number",
@@ -3537,7 +3527,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.2,
+          "y": 0.4,
           "uniqueID": "id-414",
           "name": "Wall",
           "type": "number",
@@ -3551,20 +3541,20 @@
           "name": "Tub",
           "ioValues": [
             {
-              "name": "BatterySpace",
-              "ioValue": 5.8
-            },
-            {
-              "name": "Wall",
-              "ioValue": 1.6
-            },
-            {
               "name": "Body",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "BackChamfer",
               "ioValue": 3
+            },
+            {
+              "name": "BatterySpace",
+              "ioValue": 5.8
+            },
+            {
+              "name": "Wall",
+              "ioValue": 1.6
             }
           ],
           "topLevel": false,
@@ -3572,7 +3562,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.3,
+              "y": 0.2,
               "uniqueID": "id-2188",
               "name": "Body",
               "type": "geometry",
@@ -3581,7 +3571,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.4,
+              "y": 0.2,
               "uniqueID": "id-2191",
               "name": "BackChamfer",
               "type": "number",
@@ -4131,7 +4121,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.2,
+              "y": 0.3,
               "uniqueID": "id-442",
               "name": "BatterySpace",
               "type": "number",
@@ -4140,7 +4130,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.2,
+              "y": 0.4,
               "uniqueID": "id-445",
               "name": "Wall",
               "type": "number",
@@ -4598,13 +4588,11 @@
                 },
                 {
                   "name": "distY",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ],
               "topLevel": false,
@@ -4947,8 +4935,7 @@
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ],
               "topLevel": false,
@@ -5617,8 +5604,7 @@
             },
             {
               "name": "height",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 10
             }
           ]
         },
@@ -6800,13 +6786,11 @@
                 },
                 {
                   "name": "distY",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ],
               "topLevel": false,
@@ -7149,8 +7133,7 @@
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ],
               "topLevel": false,
@@ -10031,13 +10014,11 @@
             },
             {
               "name": "distY",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "distZ",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -10380,8 +10361,7 @@
             },
             {
               "name": "distZ",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ],
           "topLevel": false,
