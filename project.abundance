@@ -4025,7 +4025,7 @@
                   "ioValues": [
                     {
                       "name": "smooth",
-                      "ioValue": false
+                      "ioValue": "__GEOMETRY_INPUT__"
                     },
                     {
                       "name": "Shape 1",
@@ -4045,7 +4045,7 @@
                     },
                     {
                       "name": "smooth",
-                      "ioValue": false
+                      "ioValue": "__GEOMETRY_INPUT__"
                     },
                     {
                       "name": "Shape 1",
@@ -6201,7 +6201,7 @@
                   "ioValues": [
                     {
                       "name": "smooth",
-                      "ioValue": false
+                      "ioValue": "__GEOMETRY_INPUT__"
                     },
                     {
                       "name": "Shape 1",
@@ -6221,7 +6221,7 @@
                     },
                     {
                       "name": "smooth",
-                      "ioValue": false
+                      "ioValue": "__GEOMETRY_INPUT__"
                     },
                     {
                       "name": "Shape 1",
@@ -9081,7 +9081,7 @@
               "ioValues": [
                 {
                   "name": "smooth",
-                  "ioValue": false
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "Shape 1",
@@ -9097,7 +9097,7 @@
                 },
                 {
                   "name": "smooth",
-                  "ioValue": false
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "Shape 1",
@@ -9610,7 +9610,7 @@
               "ioValues": [
                 {
                   "name": "smooth",
-                  "ioValue": false
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "Shape 1",
@@ -9626,7 +9626,7 @@
                 },
                 {
                   "name": "smooth",
-                  "ioValue": false
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "Shape 1",
