@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|3.7V LiPo cell, 502248 size (5 x 22 x 48 mm)|4|$0.00||
 |10mm M3 Bolt|4|$0.00||
-|KBT 3.7V 1000mAh 523450 LiPo battery, 5.2 x 34 x 50 mm, with PH1.25 2-pin connector|1|$9.99|[Amazon](https://www.amazon.com/dp/B0BJPJ9R6L?tag=maslowcnc01-20)|
 |Hosyond 4.0 in ESP32-S3 capacitive touchscreen module (ES3C40P, 320x480 IPS)|1|$25.99|[Amazon](https://www.amazon.com/dp/B0H9S4LQKG?tag=maslowcnc01-20)|
-|Total: |6|$35.98| |
+|Total: |9|$25.99| |

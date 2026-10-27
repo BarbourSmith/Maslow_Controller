@@ -9,7 +9,7 @@
 - **BatterySpace** (number)
 - **Wall** (number)
 - **BackChamfer** (number)
-- **FrontFillet** (number)
+- **FrontChamfer** (number)
 
 
 
