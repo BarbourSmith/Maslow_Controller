@@ -8,7 +8,7 @@
 
 - **BatterySpace** (number)
 - **Wall** (number)
-- **BackFillet** (number)
+- **BackChamfer** (number)
 - **FrontFillet** (number)
 
 
