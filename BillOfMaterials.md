@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|10mm M3 Bolt|4|$0.00||
 |KBT 3.7V 1000mAh 523450 LiPo battery, 5.2 x 34 x 50 mm, with PH1.25 2-pin connector|1|$9.99|[Amazon](https://www.amazon.com/dp/B0BJPJ9R6L?tag=maslowcnc01-20)|
-|M3 x 10 mm button head socket cap screws, 304 stainless (100 pack; uses 4)|1|$6.99|[Amazon](https://www.amazon.com/dp/B0CGTR4X3M?tag=maslowcnc01-20)|
 |Hosyond 4.0 in ESP32-S3 capacitive touchscreen module (ES3C40P, 320x480 IPS)|1|$25.99|[Amazon](https://www.amazon.com/dp/B0H9S4LQKG?tag=maslowcnc01-20)|
-|Total: |3|$42.97| |
+|Total: |6|$35.98| |
