@@ -7,11 +7,13 @@
   "ioValues": [
     {
       "name": "BatterySpace",
-      "ioValue": 5.8
+      "ioValue": 5.8,
+      "currentEquation": "5.8"
     },
     {
       "name": "Wall",
-      "ioValue": 1.6
+      "ioValue": 1.6,
+      "currentEquation": "1.6"
     },
     {
       "name": "BackChamfer",
@@ -125,8 +127,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -12,
-              "currentEquation": "-12"
+              "ioValue": -12
             },
             {
               "name": "zDist",
