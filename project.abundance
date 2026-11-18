@@ -90,6 +90,11 @@
             {
               "name": "yDist",
               "ioValue": -12
+            },
+            {
+              "name": "zDist",
+              "ioValue": -7.3,
+              "currentEquation": "-(1.5 + BatterySpace)"
             }
           ]
         },
@@ -989,6 +994,11 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 15.499999999999998,
+                  "currentEquation": "8.1 + BatterySpace + Wall"
                 }
               ]
             },
@@ -1009,6 +1019,11 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -8.9,
+                  "currentEquation": "-(1.5 + BatterySpace + Wall)"
                 }
               ]
             },
@@ -1023,8 +1038,21 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
+                  "name": "bottomZ",
+                  "ioValue": -8.9,
+                  "currentEquation": "-(1.5 + BatterySpace + Wall)"
+                },
+                {
+                  "name": "bottomChamfer",
+                  "ioValue": 3
+                },
+                {
                   "name": "topZ",
                   "ioValue": 6.6
+                },
+                {
+                  "name": "topChamfer",
+                  "ioValue": 1.2
                 }
               ],
               "interpreterVersion": 1,
@@ -2054,6 +2082,12 @@
               "y": 0.3,
               "uniqueID": "id-3272",
               "name": "Cell Dividers",
+              "ioValues": [
+                {
+                  "name": "BatterySpace",
+                  "ioValue": 5.8
+                }
+              ],
               "topLevel": false,
               "allAtoms": [
                 {
@@ -2493,6 +2527,11 @@
                     {
                       "name": "yDist",
                       "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": -7.5,
+                      "currentEquation": "-(1.7 + BatterySpace)"
                     }
                   ]
                 }
@@ -2532,6 +2571,12 @@
               "y": 0.7,
               "uniqueID": "id-3276",
               "name": "Side Ribs",
+              "ioValues": [
+                {
+                  "name": "BatterySpace",
+                  "ioValue": 5.8
+                }
+              ],
               "topLevel": false,
               "allAtoms": [
                 {
@@ -3314,6 +3359,11 @@
                     {
                       "name": "yDist",
                       "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": -7.5,
+                      "currentEquation": "-(1.7 + BatterySpace)"
                     }
                   ]
                 }
@@ -4381,6 +4431,11 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -7.3,
+                  "currentEquation": "-(1.5 + BatterySpace)"
                 }
               ]
             },
@@ -4426,6 +4481,11 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 7.3,
+                  "currentEquation": "1.5 + BatterySpace"
                 }
               ]
             },
@@ -8832,8 +8892,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4,
-      "y": 0.9,
+      "x": 0.4008,
+      "y": 0.8789,
       "uniqueID": "id-823",
       "name": "Screws",
       "topLevel": false,
