@@ -4,46 +4,8 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "Maslow_Controller",
-  "ioValues": [
-    {
-      "name": "BatterySpace",
-      "ioValue": 5.8,
-      "currentEquation": "5.8"
-    },
-    {
-      "name": "Wall",
-      "ioValue": 1.6,
-      "currentEquation": "1.6"
-    },
-    {
-      "name": "BackChamfer",
-      "ioValue": 3
-    },
-    {
-      "name": "FrontChamfer",
-      "ioValue": 1.2
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
-    {
-      "atomType": "Input",
-      "x": 0.0254,
-      "y": 0.1538,
-      "uniqueID": "id-102",
-      "name": "BatterySpace",
-      "type": "number",
-      "options": []
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0254,
-      "y": 0.2462,
-      "uniqueID": "id-105",
-      "name": "Wall",
-      "type": "number",
-      "options": []
-    },
     {
       "atomType": "Molecule",
       "x": 0.4,
@@ -128,11 +90,6 @@
             {
               "name": "yDist",
               "ioValue": -12
-            },
-            {
-              "name": "zDist",
-              "ioValue": -7.3,
-              "currentEquation": "-(1.5 + BatterySpace)"
             }
           ]
         },
@@ -863,27 +820,9 @@
       "lastReloadedFromGithubAt": 1793132236885
     },
     {
-      "atomType": "Input",
-      "x": 0.0254,
-      "y": 0.3385,
-      "uniqueID": "id-1944",
-      "name": "BackChamfer",
-      "type": "number",
-      "options": []
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0254,
-      "y": 0.4308,
-      "uniqueID": "id-1947",
-      "name": "FrontChamfer",
-      "type": "number",
-      "options": []
-    },
-    {
       "atomType": "Molecule",
-      "x": 0.2,
-      "y": 0.2,
+      "x": 0.2123,
+      "y": 0.4592,
       "uniqueID": "id-1950",
       "name": "Outer Shape",
       "ioValues": [
@@ -1050,11 +989,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 15.499999999999998,
-                  "currentEquation": "8.1 + BatterySpace + Wall"
                 }
               ]
             },
@@ -1075,11 +1009,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": -8.9,
-                  "currentEquation": "-(1.5 + BatterySpace + Wall)"
                 }
               ]
             },
@@ -1094,21 +1023,8 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
-                  "name": "bottomZ",
-                  "ioValue": -8.9,
-                  "currentEquation": "-(1.5 + BatterySpace + Wall)"
-                },
-                {
-                  "name": "bottomChamfer",
-                  "ioValue": 3
-                },
-                {
                   "name": "topZ",
                   "ioValue": 6.6
-                },
-                {
-                  "name": "topChamfer",
-                  "ioValue": 1.2
                 }
               ],
               "interpreterVersion": 1,
@@ -1152,8 +1068,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2,
-          "y": 0.6,
+          "x": 0.2057,
+          "y": 0.6085,
           "uniqueID": "id-3080",
           "name": "Industrial Outline",
           "ioValues": [
@@ -1205,8 +1121,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.2,
-              "y": 0.5,
+              "x": 0.2011,
+              "y": 0.493,
               "uniqueID": "id-3091",
               "name": "Shoulder",
               "ioValues": [
@@ -2138,12 +2054,6 @@
               "y": 0.3,
               "uniqueID": "id-3272",
               "name": "Cell Dividers",
-              "ioValues": [
-                {
-                  "name": "BatterySpace",
-                  "ioValue": 5.8
-                }
-              ],
               "topLevel": false,
               "allAtoms": [
                 {
@@ -2583,11 +2493,6 @@
                     {
                       "name": "yDist",
                       "ioValue": 0
-                    },
-                    {
-                      "name": "zDist",
-                      "ioValue": -7.5,
-                      "currentEquation": "-(1.7 + BatterySpace)"
                     }
                   ]
                 }
@@ -2627,12 +2532,6 @@
               "y": 0.7,
               "uniqueID": "id-3276",
               "name": "Side Ribs",
-              "ioValues": [
-                {
-                  "name": "BatterySpace",
-                  "ioValue": 5.8
-                }
-              ],
               "topLevel": false,
               "allAtoms": [
                 {
@@ -3415,11 +3314,6 @@
                     {
                       "name": "yDist",
                       "ioValue": 0
-                    },
-                    {
-                      "name": "zDist",
-                      "ioValue": -7.5,
-                      "currentEquation": "-(1.7 + BatterySpace)"
                     }
                   ]
                 }
@@ -4487,11 +4381,6 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": -7.3,
-                  "currentEquation": "-(1.5 + BatterySpace)"
                 }
               ]
             },
@@ -4537,11 +4426,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 7.3,
-                  "currentEquation": "1.5 + BatterySpace"
                 }
               ]
             },
@@ -5550,6 +5434,38 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.2,
+      "uniqueID": "id-5023",
+      "name": "BatterySpace",
+      "value": 5.8
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.35,
+      "uniqueID": "id-5025",
+      "name": "Wall",
+      "value": 1.6
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.5,
+      "uniqueID": "id-5027",
+      "name": "BackChamfer",
+      "value": 3
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.65,
+      "uniqueID": "id-5029",
+      "name": "FrontChamfer",
+      "value": 1.2
     },
     {
       "atomType": "Molecule",
@@ -10709,36 +10625,6 @@
   ],
   "allConnectors": [
     {
-      "ap2Name": "BatterySpace",
-      "ap1ID": "id-102",
-      "ap2ID": "id-108"
-    },
-    {
-      "ap2Name": "BatterySpace",
-      "ap1ID": "id-102",
-      "ap2ID": "id-1950"
-    },
-    {
-      "ap2Name": "BatterySpace",
-      "ap1ID": "id-102",
-      "ap2ID": "id-407"
-    },
-    {
-      "ap2Name": "Wall",
-      "ap1ID": "id-105",
-      "ap2ID": "id-1950"
-    },
-    {
-      "ap2Name": "Wall",
-      "ap1ID": "id-105",
-      "ap2ID": "id-407"
-    },
-    {
-      "ap2Name": "Wall",
-      "ap1ID": "id-105",
-      "ap2ID": "id-676"
-    },
-    {
       "ap2Name": "Shape4",
       "ap1ID": "id-108",
       "ap2ID": "id-1175"
@@ -10764,21 +10650,6 @@
       "ap2ID": "id-2545"
     },
     {
-      "ap2Name": "BackChamfer",
-      "ap1ID": "id-1944",
-      "ap2ID": "id-1950"
-    },
-    {
-      "ap2Name": "BackChamfer",
-      "ap1ID": "id-1944",
-      "ap2ID": "id-407"
-    },
-    {
-      "ap2Name": "FrontChamfer",
-      "ap1ID": "id-1947",
-      "ap2ID": "id-1950"
-    },
-    {
       "ap2Name": "Body",
       "ap1ID": "id-1950",
       "ap2ID": "id-407"
@@ -10802,6 +10673,51 @@
       "ap2Name": "Shape2",
       "ap1ID": "id-407",
       "ap2ID": "id-1175"
+    },
+    {
+      "ap2Name": "BatterySpace",
+      "ap1ID": "id-5023",
+      "ap2ID": "id-108"
+    },
+    {
+      "ap2Name": "BatterySpace",
+      "ap1ID": "id-5023",
+      "ap2ID": "id-1950"
+    },
+    {
+      "ap2Name": "BatterySpace",
+      "ap1ID": "id-5023",
+      "ap2ID": "id-407"
+    },
+    {
+      "ap2Name": "Wall",
+      "ap1ID": "id-5025",
+      "ap2ID": "id-1950"
+    },
+    {
+      "ap2Name": "Wall",
+      "ap1ID": "id-5025",
+      "ap2ID": "id-407"
+    },
+    {
+      "ap2Name": "Wall",
+      "ap1ID": "id-5025",
+      "ap2ID": "id-676"
+    },
+    {
+      "ap2Name": "BackChamfer",
+      "ap1ID": "id-5027",
+      "ap2ID": "id-1950"
+    },
+    {
+      "ap2Name": "BackChamfer",
+      "ap1ID": "id-5027",
+      "ap2ID": "id-407"
+    },
+    {
+      "ap2Name": "FrontChamfer",
+      "ap1ID": "id-5029",
+      "ap2ID": "id-1950"
     },
     {
       "ap2Name": "Shape 1",

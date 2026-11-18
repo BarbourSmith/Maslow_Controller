@@ -4,14 +4,6 @@
 
 ![](/project.png)
 
-## Inputs
-
-- **BatterySpace** (number)
-- **Wall** (number)
-- **BackChamfer** (number)
-- **FrontChamfer** (number)
-
-
 
 
  
