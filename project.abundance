@@ -12113,8 +12113,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.5939,
-      "y": 0.1746,
+      "x": 0.5966,
+      "y": 0.2028,
       "uniqueID": "id-8660",
       "name": "README",
       "ioValues": [
@@ -12123,7 +12123,7 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "Readme text here",
+      "readMeText": "You can find an installer to program the firmware on to the remote at: https://documentation.maslowcnc.com/remote-installer/",
       "global": true
     }
   ],

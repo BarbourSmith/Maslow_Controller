@@ -6,7 +6,7 @@
 
 
 
- Readme text here
+ You can find an installer to program the firmware on to the remote at: https://documentation.maslowcnc.com/remote-installer/
 
 
 
