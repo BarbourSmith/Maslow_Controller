@@ -6704,7 +6704,7 @@
         {
           "atomType": "Input",
           "x": 0.0254,
-          "y": 0.2451,
+          "y": 0.1538,
           "uniqueID": "id-6714",
           "name": "BatterySpace",
           "type": "number",
@@ -12110,6 +12110,21 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.5939,
+      "y": 0.1746,
+      "uniqueID": "id-8660",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Readme text here",
+      "global": true
     }
   ],
   "allConnectors": [
